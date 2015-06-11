@@ -2,7 +2,7 @@
 
 Name:       python-oslo-versionedobjects
 Version:    XXX
-Release:    XXX{?dist}
+Release:    XXX
 Summary:    OpenStack common versionedobjects library
 
 Group:      Development/Languages
@@ -43,7 +43,10 @@ than the code expects, allowing services to be operated safely during upgrades.
 Summary:    Documentation for OpenStack common versionedobjects library
 Group:      Documentation
 
+BuildRequires: python-oslo-config
 BuildRequires: python-oslo-sphinx
+BuildRequires: python-oslo-messaging
+BuildRequires: python-iso8601
 
 # Needed for autoindex which imports the code
 
@@ -87,5 +90,3 @@ rm -fr doc/build/html/.buildinfo
 %doc doc/build/html LICENSE
 
 %changelog
-* Mon Mar 16 2015 Derek Higgins <derekh@redhat.com> - XXX
-- Initial package.
