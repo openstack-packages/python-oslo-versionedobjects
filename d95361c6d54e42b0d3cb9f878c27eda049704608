@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa81d914_812fccf5",
+        "filename": "python-oslo-versionedobjects.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1002601
+      },
+      "writtenOn": "2016-01-20T14:05:13Z",
+      "side": 1,
+      "message": "same tests should be in versioned python2/python3 subpackages",
+      "revId": "d95361c6d54e42b0d3cb9f878c27eda049704608",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
