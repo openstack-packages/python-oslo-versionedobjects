@@ -1,0 +1,7 @@
+Verified+1: rdo-ci-jenkins <whayutin+rdocijenkins@redhat.com>
+Code-Review+2: Haïkel Guémar <haikel.guemar@gmail.com>
+Submitted-by: Haïkel Guémar <haikel.guemar@gmail.com>
+Submitted-at: Tue, 02 Feb 2016 15:49:56 +0100
+Reviewed-on: https://review.gerrithub.io/261917
+Project: openstack-packages/python-oslo-versionedobjects
+Branch: refs/heads/rpm-master
