@@ -183,12 +183,11 @@ popd
 rm -fr doc/build/html/.buildinfo
 
 %check
-# TODO: one python2 test is failing
-%{__python2} setup.py test ||
 %if 0%{?with_python3}
-rm -rf .testrepository
 %{__python3} setup.py test
+rm -rf .testrepository
 %endif
+%{__python2} setup.py test
 
 %files -n python2-%{pkg_name}
 %doc README.rst
