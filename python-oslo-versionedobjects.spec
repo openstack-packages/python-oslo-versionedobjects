@@ -67,6 +67,7 @@ BuildRequires: python-oslo-config
 BuildRequires: python-oslo-sphinx
 BuildRequires: python-oslo-messaging
 BuildRequires: python-iso8601
+BuildRequires: python-sphinx
 
 # Needed for autoindex which imports the code
 
