@@ -5,15 +5,17 @@
 %global sname oslo.versionedobjects
 %global pkg_name oslo-versionedobjects
 
+%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
+
 Name:       python-oslo-versionedobjects
-Version:    XXX
-Release:    XXX
+Version:    1.7.0
+Release:    1%{?dist}
 Summary:    OpenStack common versionedobjects library
 
 Group:      Development/Languages
 License:    ASL 2.0
 URL:        https://launchpad.net/oslo
-Source0:    https://pypi.python.org/packages/source/o/%{sname}/%{sname}-1.4.0.tar.gz
+Source0:    https://pypi.python.org/packages/source/o/%{sname}/%{sname}-%{version}.tar.gz
 BuildArch:  noarch
 
 %package -n python2-%{pkg_name}
@@ -217,3 +219,6 @@ rm -rf .testrepository
 %endif
 
 %changelog
+* Wed Mar 23 2016 Haikel Guemar <hguemar@fedoraproject.org> 1.7.0-
+- Update to 1.7.0
+
